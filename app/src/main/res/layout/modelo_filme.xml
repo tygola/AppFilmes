@@ -13,8 +13,9 @@
 
         <ImageView
             android:id="@+id/imgListaCapa"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="130dp"
+            android:layout_height="230dp"
+            android:layout_marginRight="120dp"
             android:src="@drawable/ameri" />
 
         <LinearLayout

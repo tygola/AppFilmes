@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
             "Breaking Bad",
             "Blacklist",
             "boys",
-            "Dark","Dracula",
+            "Dark",
+            "Dracula",
             "Freud",
             "Game Of Thrones",
             "Grimm",
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.slee,R.drawable.sons,R.drawable.titans,R.drawable.viks,R.drawable.vinci,R.drawable.wi};
     String[] tipoFilme = {"\"Drama\",\"Drama\",\"Drama\",\"Drama\",\"Drama\",\"Terror\",\"Suspense\",\"Terror\",\"Historia\",\"Misterio\",\"Drama\",\"Drama\",\"Terror\",\"Terror\",\"Drama\",\"Drama\",\"Drama\",\"Drama\",\"drama\""};
     String[] anoFilme = {"2017","2008","2013","2019","2017","2020","2020","2013","2015","2016","2015","2013","2005","2013","2008","2018","2013","2013","2019"};
-    float[] ratingFilme = {4.5f, 4f,4f,4.5f,3.8f,3.5f,4f,4,5f,3f,4f,3.5f,3f,4f,2.5f,5f,3.5f,4f,3.5f,5f,4f};
+    float[] ratingFilme = {4f, 4f,4f,4.5f,3.8f,3.5f,4f,4,5f,3f,4f,3.5f,3f,4f,5f,5f,3.5f,4f,3.5f,5f,4f};
     private int modelo_filme;
 
 
