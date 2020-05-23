@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeListaFilmes"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <ImageView
+            android:id="@+id/imgListaCapa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ameri" />
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="false"
+            android:layout_marginLeft="140dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtListaTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:text="American Gods"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtListaCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drama"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtListaAano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"
+                android:textSize="20sp"/>
+
+
+            <RatingBar
+                android:id="@+id/ratListaPontuacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:numStars="5"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:rating="4" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
